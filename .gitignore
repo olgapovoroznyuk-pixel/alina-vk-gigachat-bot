@@ -1,0 +1,22 @@
+# Секреты — никогда не попадают в Git
+.env
+
+# Скачанные сертификаты НУЦ Минцифры (генерируются автоматически)
+certs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Редакторы и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
